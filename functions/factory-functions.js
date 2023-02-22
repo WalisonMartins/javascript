@@ -14,4 +14,13 @@ console.log(criarPessoa())
 
 //Função Factory com valores mutáveis:
 
-function criarProduto(){
+function criarProduto(nome, preco) {
+  return {
+    nome,
+    preco,
+    desconto: 0.1 //valor fixo
+  }
+}
+
+console.log(criarProduto('Notebook', 2199, 99))
+console.log(criarProduto(Ipad, 2300))
