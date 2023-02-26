@@ -1,0 +1,1 @@
+/*Organizar e administrar os dados */
