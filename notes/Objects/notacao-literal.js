@@ -25,9 +25,11 @@ const obj5 = {
   //antes do ES6
   funcao1: function () {
     // ...
-  }
+  },
   //como é atualmente
-  funcao2() {
+  funcao2 () {
     // ... 
   }
 }
+
+console.log(obj5)
